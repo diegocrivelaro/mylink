@@ -1,0 +1,30 @@
+/* CONTAINER MENU */
+.container_menu {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  position: absolute;
+  top: 30px;
+  right: 2%;
+}
+/*-------------------------------------*/
+
+/* MENU SOCIAL */
+.menu_social {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  align-items: center;
+  margin-right: 1.37rem;
+}
+/*-------------------------------------*/
+
+/* MENU MYLINKS */
+.menu_mylinks {
+  padding: 0.75rem 1.12rem;
+  font: 600 1.37rem "Roboto", sans-serif;
+  color: var(--black);
+  border-radius: 4px;
+  background-color: var(--white);
+}
+/*-------------------------------------*/
