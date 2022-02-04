@@ -10,6 +10,7 @@ export default function RoutesApp() {
         <Route path="/" element={<Home />} />
         <Route path="/links" element={<Links />} />
       </Routes>
+        <Route path="*" element={<Error />} />
     </BrowserRouter>
   );
 }
